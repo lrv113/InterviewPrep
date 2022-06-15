@@ -1,4 +1,6 @@
-import java.util.*;;
+import java.util.*;
+// Code works for both undirected and directed graph, there a flag to distinguish.
+
 public class ImplementGenericGraphAdjacencyList<T> {
 
     /*
@@ -92,22 +94,7 @@ public class ImplementGenericGraphAdjacencyList<T> {
         graphObject.addVertexAndEdge(1,2,false);
         graphObject.addVertexAndEdge(1,3,false);
         graphObject.addVertexAndEdge(3,2,false);
-
-
         System.out.println(graphObject.toString());
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
 
 }
